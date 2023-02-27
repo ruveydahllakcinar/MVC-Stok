@@ -1,6 +1,6 @@
 # MVC-101
 
-İlk MVC projem. Bu projede MVC mantığını anlamak için sadece temel CRUD işlemleri gerçekleştirdim. Örneğin bir ürün tablosu için listeleme-silme-güncelleme-ekleme ve id'ye göre getirme işlemleri gerçekleştirdim. Bu projemde Model-View-Controller yapısı kullanmamın nedeni MVC sayesinde daha hızlı, daha temiz kod yazmamı sağlamaktı.
+My first MVC project. In this project, I only performed basic CRUD operations to understand the MVC logic. For example, I performed listing-deletion-update-add and fetch by id for a product table. The reason why I used Model-View-Controller structure in this project was to enable me to write faster and cleaner code thanks to MVC.
 
 ## Use to Libraries 
 
@@ -11,22 +11,24 @@
 - ADO.NET Entity Data Model
 
 
-## Proje Kurulumu
+## Project Setup
 
-* İlk olarak [Visual Studio](https://visualstudio.microsoft.com/tr/) kurulumu yapmanız gerekmektedir. 
+* First you need to install [Visual Studio](https://visualstudio.microsoft.com/en/).
 
-* ASP.NET Web Application(.NET Framework) seçeneğini seçip sürümünü seçmeniz gerekektedir. 
-*Bknz.* Ben 4.6.1 sürümü ile projeyi geliştirdim.
+* You need to select ASP.NET Web Application(.NET Framework) option and choose its version. *Ins.* I developed the project with version 4.6.1.
 
-* Proje isminizi, sürümünüzü seçtikten sonra next diyip application'ı nasıl geliştireceğinizi seçmeniz için bir ekran geliyor. Biz MVC kullanacağımız için MVC seçeneğini seçiyoruz.
+* After choosing your project name and version, a screen comes up where you can choose how to develop the application in the next step. Since we will use MVC, we choose the MVC option.
 
-**İşte bu kadar projeniz kod yazmak için hazır.**  
+**That's it, your project is ready to code.**
 
-## Proje Detayları
-1. Models alanında Entity klasörü oluşturarak kurmuş olduğum Entity Framework kütüphanesini kullanarak MySql'de hazırlamış olduğum tabloyu ADO.NET Entity Data Model kullanarak projeme tablomu dahil ettim. 
-[Model Çıktısı](/Views/assets/img/model.png) 
-2. Proje içinde Controller alanında üç adet controller oluşturdum. Bu controller alanlarında temel crud işlemlerimi yazdım. Kategori controller, müşteri controller ve ürün controller alanlarını oluşturdum ve backend kodlarını yazdım.[müşteri controller sayfası ](/Views/assets/img/mustericontroller.png) 
+## Project Details
 
-3. Views alanım ise yazmış olduğum backend kodlarının çıktısını aldığım yani frontend alanım. Burada tablolarımı oluşturarak silme, güncelleme,ekleme gibi parametreli yaptığım, kullanıcının karşısına çıkardığım sayfaların kodlarını yazdığım alanım. [urun listeleme sayfası](/Views/assets/img/urunlisteleme.png) 
+1. By creating an Entity folder in the Models area, I included the Entity Framework library I installed in MySql and the table I prepared using ADO.NET Entity Data Model into my project.
+[Model Output](/Views/assets/img/model.png)
+
+2. I created three controllers in the Controller area of the project. I wrote my basic crud operations in these controller fields. I created category controller, customer controller and product controller fields and wrote backend codes.
+[client controller page](/Views/assets/img/customercontroller.png)
+
+3. The My Views area is the page that the user sees. I have frontend codes on this page. [product listing page](/Views/assets/img/productlisting.png)
 
 
